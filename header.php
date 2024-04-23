@@ -6,7 +6,7 @@ session_start();
 //$user = $_SESSION['activeuser'];
 $start = $_SESSION['start'];
 $mode = $_SESSION['mode'];
-include 'https://www.kaelco.000.pe/Upgrade/dist/con.php';
+include '_con.php';
 $computerId = $_SERVER['HTTP_USER_AGENT'].$_SERVER['LOCAL_ADDR'].$_SERVER['LOCAL_PORT'].$_SERVER['REMOTE_ADDR'];
 $computerId =  preg_replace('/\s+/', '', $computerId);
 $lstat = mysqli_query($db,"SELECT * FROM `online_status` WHERE device = '$computerId'");
