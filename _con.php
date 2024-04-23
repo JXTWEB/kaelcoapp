@@ -1,7 +1,7 @@
 <?php
 
 
-$db = mysqli_connect("localhost", "kaelco_demo", "iSAJm3ZTxrR", "kaelco_demo");
+$db = mysqli_connect("localhost", "kaelco_demo", "Delprado120995", "kaelco_demo");
 
 
 
